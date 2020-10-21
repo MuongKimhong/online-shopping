@@ -19,7 +19,7 @@ li {
   display: block;
   text-align: center;
   padding-top: 0;
-  margin-right: 20px
+  margin-right: 20px;
 }
 #navbar-item {
   font-size: 37px;
@@ -32,4 +32,29 @@ li {
 #question-icon {
   width: 20px;
   height: 20px;
+}
+#li-navbar-join {
+  float: right;
+  margin-top: 35px;
+  padding-right: 10px;
+}
+#join-btn {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 2px 2px rgb(204, 204, 204);
+}
+
+#li-navbar-needhelp {
+  float: right;
+  margin-top: 35px;
+  margin-right: 20px;
+}
+#needhelp-text {
+  float: right;
+  margin: 0;
+  margin-top: 14px;
+  padding-left: 10px;
+  font-size: 18px;
 }
