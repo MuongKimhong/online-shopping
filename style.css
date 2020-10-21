@@ -1,0 +1,35 @@
+/* navbar */
+#navbar-container {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: inline-flexbox;
+}
+#navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+li {
+  float: left;
+}
+#navbar-title {
+  font-size: 38px;
+  display: block;
+  text-align: center;
+  padding-top: 0;
+  margin-right: 20px
+}
+#navbar-item {
+  font-size: 37px;
+  display: inline-block;
+  text-align: center;
+}
+#navbar-title-green {
+  color: rgb(111, 177, 12);
+}
+#question-icon {
+  width: 20px;
+  height: 20px;
+}
