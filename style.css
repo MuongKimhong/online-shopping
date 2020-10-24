@@ -58,3 +58,38 @@ li {
   padding-left: 10px;
   font-size: 18px;
 }
+
+/* Page main image */
+#clothes-img {
+  width: 100%;
+  padding: 0;
+  height: 430px
+}
+#main-clothes-img-text {
+  position: absolute;
+  font-size: 20px;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#small-clothes-img-text {
+  text-align: center;
+  width: 600px;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(163, 163, 163);
+}
+#search-box{
+  width: 500px;
+  padding-left: 5px;
+  height: 30px;
+  font-size: 18px;
+  font-family: 'Helvetica', FontAwesome, sans-serif;
+  border-radius: 25px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
