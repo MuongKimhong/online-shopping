@@ -1,11 +1,6 @@
 @import "custom_class.css";
 
 /* navbar */
-#navbar-container {
-  padding-left: 100px;
-  padding-right: 100px;
-  display: inline-flexbox;
-}
 #navbar-list {
   list-style-type: none;
   overflow: hidden;
@@ -57,7 +52,7 @@ li {
 /* Page main image */
 #clothes-img {
   width: 100%;
-  height: 430px
+  height: 430px;
 }
 #main-clothes-img-text {
   font-size: 20px;
@@ -71,37 +66,77 @@ li {
   transform: translate(-50%, -50%);
   color: rgb(163, 163, 163);
 }
-#search-box{
+#search-box {
   width: 500px;
   padding-left: 5px;
   height: 30px;
   font-size: 18px;
-  font-family: 'Helvetica', FontAwesome, sans-serif;
+  font-family: "Helvetica", FontAwesome, sans-serif;
   border-radius: 25px;
   top: 40%;
   transform: translate(-50%, -50%);
 }
 
-#box1{
+#box1 {
   background-color: rgb(245, 164, 177);
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 25px;
   padding-bottom: 25px;
+  width: 250px;
 }
-#box2{
-  background-color: rgb(245, 164, 177);
+#box2 {
+  background-color: rgb(245, 189, 86);
   margin-left: 30px;
   margin-right: 30px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 25px;
   padding-bottom: 25px;
+  width: 250px;
 }
-#box3{
+#box3 {
   background-color: rgb(245, 164, 177);
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 25px;
   padding-bottom: 25px;
+  width: 250px;
+}
+
+.item {
+  margin-left: -40px;
+  border-color: rgb(252, 191, 77);
+  background-color: rgb(252, 191, 77);
+  border-radius: 8px;
+}
+.cart-btn {
+  margin-top: -7px;
+  margin-left: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.cart-btn-top {
+  margin-top: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.send-btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: green;
+  border-radius: 4px;
+}
+.cancel-btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
 }
